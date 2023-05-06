@@ -1,0 +1,51 @@
+.Login-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: IBM Plex Sans;
+    font-size: 12px;
+}
+
+.Login-container section.form {
+    width: 40%;
+    max-width: 350px;
+    background-color: #0D1539;
+    padding: 20px 100px 20px 100px;
+}
+
+.Login-container section.form h1 {
+    font-size: 12px;
+    margin-bottom: 16px;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 0.7rem;
+}
+
+.Login-container section.form h2 {
+    font-size: 12px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 0.3rem;
+}
+
+.Login-container section.form h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    text-align: center;
+    width: 110%;
+}
+
+.logo{
+    width: 98%;
+}
+.imagefond{
+    background-color: #28394E;
+    padding: 25px 32px 25px 30px;
+}

@@ -1,0 +1,103 @@
+.view-dash {
+    height: 80%;
+    background-color: #070c24;
+    display: flex;
+    .view-dash-left {
+        display: flex;
+        height: 100%;
+        width: 15%;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        .view-dash-left-menu {
+            width: 50px;
+            height: 50px;
+            margin-right: 1rem;
+            background-color: red;
+            background-color: #ffffff0f;
+            border-radius: 5px;
+            margin-top: 12%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            img{
+                width: 50%;
+            }
+            &:hover{
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+            }
+        }
+    }
+    .view-dash-right {
+        display: flex;
+        height: 100%;
+        width: 85%;
+        flex-direction: column;
+        .view-dash-right-top {
+            display: flex;
+            height: 15%;
+            border-bottom: solid 1px #ffffff20;
+            width: 80%;
+            .view-dash-right-top-left {
+                display: flex;
+                width: 40%;
+                align-items: flex-end;
+                justify-content: flex-start;
+                li{
+                    list-style-type: none;
+                    margin-bottom: 3%;
+                    color: #098dcabf;
+                    font-size: 11px;
+                }
+            }
+            .view-dash-right-top-right {
+                display: flex;
+                width: 60%;
+                justify-content: center;
+                align-items: flex-end;
+                li{
+                    list-style-type: none;
+                    margin-bottom: 3%;
+                    color: #ffffffab;
+                    font-size: 11px;
+                    margin-left: 4rem;
+                }
+            }
+        }
+        .view-dash-right-main {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            color: white;
+            .view-dash-right-main-Content {
+                display: flex;
+                height: 20rem;
+                width: 80%;
+                border-radius: 5px;
+                border: solid 1px #ffffff20;
+                overflow-y: scroll;
+                flex-direction: column;
+                .ItemFavoris {
+                    display: flex;
+                    width: 100%;
+                    background-color: #0D1539;
+                    height: 3rem;
+                    justify-content: space-around;
+                    align-items: center;
+                    list-style-type: none;
+                    margin-top: 1rem;
+                    img{
+                        height: 30px;
+                    }
+                    li{
+                        cursor: pointer;
+                    }
+                    li:nth-child(5){
+                        color: rgb(4, 128, 0);
+                    }
+                }
+            }
+        }
+    }
+}

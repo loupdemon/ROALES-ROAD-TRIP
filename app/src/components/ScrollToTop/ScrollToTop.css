@@ -1,0 +1,33 @@
+.ScrollToTop {
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 50%;
+	will-change: transform, opacity, visibility;
+	transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
+}
+
+.ScrollToTop.hidden {
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(100px);
+}
+
+.ScrollToTop.visible {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0px);
+}
+
+.ScrollToTop:hover {
+	transform: scale(1.1);
+}
+
+.ScrollToTop:active {
+	transform: scale(0.8);
+}

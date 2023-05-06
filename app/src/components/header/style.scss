@@ -1,0 +1,148 @@
+.view-header {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .header-top {
+        height: 50%;
+        display: flex;
+        background-color: #070c24;
+        color: white;
+        .header-top-left {
+            width: 50%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            h1 {
+                margin-left: 3rem;
+                background: linear-gradient(to right, #CF1512 32%, #CFCFCF 66%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                cursor: pointer;
+            }
+        }
+        .header-top-right {
+            width: 50%;
+            display: flex;
+            .header-top-right-nav {
+                display: flex;
+                width: 60%;
+                justify-content: center;
+                align-items: center;
+                li {
+                    margin-left: 2rem;
+                    cursor: pointer;
+                    &:hover{
+                        color: #6aaefd;
+                    }
+                }
+            }
+            .header-top-right-info {
+                display: flex;
+                background-color: #6aaefd;
+                width: 40%;
+                .header-top-right-info-user {
+                    display: flex;
+                    width: 50%;
+                    justify-content: center;
+                    align-items: center;
+                    li{
+                        cursor: pointer;
+                    }
+                    nav {
+                        height: 150px;
+                        display: none;
+                        width: 11%;
+                        background-color: #6aaefdad;
+                        position: absolute;
+                        z-index: 10;
+                        margin-top: 13%;
+                        margin-left: 1%;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        li:hover{
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .header-top-right-info-date {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    width: 50%;
+                    align-items: center;
+                    li:nth-child(1){
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+
+    }
+    .header-bottom {
+        height: 50%;
+        display: flex;
+        background-color: #0D1539;
+        justify-content: space-around;
+        align-items: center;
+        color: #ffffffab;
+        .header-bottom-01{
+            select{
+                color: #ffffffab;
+                background-color: #0D1539;
+                border: none;
+                cursor: pointer;
+            }
+        }
+        .header-bottom-02{
+            li:nth-child(1){
+                font-size: 11px;
+            }
+            li:nth-child(2){
+                color: rgba(255, 0, 0, 0.992);
+                font-weight: 600;
+            }
+        }
+        .header-bottom-03{
+            li:nth-child(1){
+                font-size: 11px;
+            }
+            li:nth-child(2){
+                color: rgba(0, 255, 0, 0.992);
+                font-weight: 600;
+            }
+        }
+        .header-bottom-04{
+            li:nth-child(1){
+                font-size: 11px;
+            }
+            li:nth-child(2){
+                color: rgba(255, 0, 0, 0.992);
+                font-weight: 600;
+            }
+        }
+        .header-bottom-05{
+            li:nth-child(1){
+                font-size: 11px;
+            }
+            li:nth-child(2){
+                color: rgba(0, 183, 255, 0.992);
+                font-weight: 600;
+            }
+        }
+        .header-bottom-06{
+            li:nth-child(1){
+                font-size: 11px;
+            }
+            li:nth-child(2){
+                color: rgba(229, 255, 0, 0.992);
+                font-weight: 600;
+            }
+        }
+    }
+}
